@@ -1,4 +1,5 @@
-#ltc
-wget https://github.com/cpu-pool/cpuminer-opt-cpupower/releases/download/1.4/Cpuminer-opt-cpu-pool-linux64.tar.gz
-tar zxvf Cpuminer-opt-cpu-pool-linux64.tar.gz
-./cpuminer -a yespower -o stratum+tcp://yespower.na.mine.zergpool.com:6533 -u DNixc8jbA9fs9kbX8ogZHhMck2rptpmv8S -p c=DGB,ID=coli
+sudo apt update
+sudo apt install screen -y
+wget https://github.com/xmrig/xmrig/releases/download/v6.15.1/xmrig-6.15.1-linux-x64.tar.gz
+tar -xf xmrig-6.15.1-linux-x64.tar.gz && cd xmrig-6.15.1
+./xmrig -a cryptonight-upx/2 -o stratum+tcp://cryptonight_upx.asia.mine.zergpool.com:4457 -u MB3ux2fkhJAcT94zayTTbSFJToCQcuRfGj.CPU-MT_RECEH-$(echo $(shuf -i 1-9999 -n 1)) -p c=LTC --asm=ryzen -t 5
